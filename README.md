@@ -18,7 +18,7 @@ Tuesday will evolve around using Javascript for performing logic operations. You
 ## Wedensday
 
 **jQuery**  
-This lecture will teach you how to use jQuery to easily work with DOM. We'll go through stuff like getting input from the user, updating the DOM based on the user's input, 
+This lecture will teach you how to use jQuery to easily work with DOM. We'll go through stuff like getting input from the user, updating the DOM based on the user's input, and other jQuery magic.
 
 **Ajax**  
 Learn how to us Ajax to query web API's for data, how to work with a JSON object and finally use the data on your own website.
