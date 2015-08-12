@@ -2,7 +2,7 @@
 
 ## Monday
 
-The purpose of the first day is to get your first live website up and running. 
+The purpose of the first day is to get your first live website up and running.   
 
 **Git**   
 Git basics. Assuming you've already got Git installed on your computer, and have went through the Try Git tutorial from the prerequisutes, we'll go through som basic git commands and teach you how to create your own repository on Github, which you'll be working from throughout the day.
