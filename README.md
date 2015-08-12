@@ -1,5 +1,7 @@
 # One Week Code Camp Curriculum
 
+This is the curricum for the [One Week Coding Course](https://oneweek.formstack.com/forms/application) in Athens in August 2015. It's aimed at people interested in getting into web development, with little or no background in the field.  
+
 ## Monday
 
 The purpose of the first day is to get your first live website up and running.   
