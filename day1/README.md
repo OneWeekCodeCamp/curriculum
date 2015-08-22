@@ -4,7 +4,7 @@
 
 * Create a new public repository on GitHub
 * Clone the repo into your local machine
-* Create an file named *index.html* pasting in HTML from this file.
+* Create an file named *index.html* pasting in the code from the HTML file in this repo
 * Add and commit your changes
 * Push your changes to your GitHub repo.
 
