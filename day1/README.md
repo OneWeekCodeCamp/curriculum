@@ -22,7 +22,6 @@ The *index.html* you created in the previous exercise will be the basis for your
 Now its about time to style your page. The point with this exercise it not to make your site beatuiful but to get to know the concepts behind CSS. Do the following:
 
 * Find a font you like at Google Fonts and use it on your page
-* Style your profile image (e.g. )
+* Give your profile image an ID and style it 
 * Add a class to an element/group of elements and style the class
-* Add an ID to an element and style it.
 * Style the first element in your list using CSS selectors
