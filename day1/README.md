@@ -2,11 +2,11 @@
 
 ## Git exercise
 
-**1.** Create a new public repository on GitHub.
-**2.** Clone the repo into your local machine
-**3.** Create an file named *index.html* pasting in HTML from this file.
-**4.** Add and commit your changes
-**5.** Push your changes to your GitHub repo.
+* Create a new public repository on GitHub
+* Clone the repo into your local machine
+* Create an file named *index.html* pasting in HTML from this file.
+* Add and commit your changes
+* Push your changes to your GitHub repo.
 
 ## HTML exercise
 
