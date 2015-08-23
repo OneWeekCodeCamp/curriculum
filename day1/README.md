@@ -1,6 +1,18 @@
-# Monday
+# Monday  
+
+You'll be working in pairs, creating a portfolio page from scratch. At the end of the day, you'll learn how to get the site live using GitHub Pages.
+
+The site will be built through the tree exercises listed below. The Git exercise will be preceeded by a lecture on the subject.  
 
 ## Git exercise
+
+If you haven't installed Git yet, you'll have to do it now.
+For Mac users, the easiest thing is to install git with Homebrew. Just type the following into Terminal:
+
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+
+If you're using Windows, go to [this link](http://git-scm.com/download/win). If you're using Linux, simply follow these [instructions.](http://git-scm.com/download/linux.)
 
 * Create a new public repository on GitHub
 * Clone the repo into your local machine
@@ -25,3 +37,9 @@ Now its about time to style your page. The point with this exercise it not to ma
 * Give your profile image an ID and style it 
 * Add a class to an element/group of elements and style the class
 * Style the first element in your list using CSS selectors
+
+### Stretch goals
+
+* Create a new branch in your Git repo
+* Learn how to push to and pull from different branches, plus merging them together
+* 
