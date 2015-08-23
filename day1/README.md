@@ -4,9 +4,13 @@ You'll be working in pairs, creating a portfolio page from scratch. At the end o
 
 The site will be built through the tree exercises listed below. The Git exercise will be preceeded by a lecture on the subject.  
 
+## Terminal basics
+
+We'll start off the day by giving you a quick crash course in the command line interface, teaching you the commands you'll need to know to get through the day.	
+
 ## Git exercise
 
-If you haven't installed Git yet, you'll have to do it now.
+If you haven't installed Git yet, you'll have to do it.  
 For Mac users, the easiest thing is to install git with Homebrew. To get Homebrew, just type the following into Terminal:
 
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
