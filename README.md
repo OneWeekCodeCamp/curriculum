@@ -7,7 +7,7 @@ This is the curricum for the [One Week Coding Course](https://oneweek.formstack.
 The purpose of the first day is to get your first live website up and running.   
 
 **Git**   
-Git basics. Assuming you've already got Git installed on your computer, and have went through the Try Git tutorial from the prerequisutes, we'll go through som basic git commands and teach you how to create your own repository on Github, which you'll be working from throughout the day.
+Assuming you've already got Git installed on your computer, and have went through the Try Git tutorial from the prerequisutes, we'll go through som basic git commands and teach you how to create your own repository on Github, which you'll be working from throughout the day.
 
 **HTML/CSS**  
 You'll code your own little portfolio website from scratch in HTML. You'll also add styling to it, using CSS selectors. We'll go through the basics of CSS in order to get you started.
