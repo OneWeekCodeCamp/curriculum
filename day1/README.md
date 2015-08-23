@@ -7,10 +7,13 @@ The site will be built through the tree exercises listed below. The Git exercise
 ## Git exercise
 
 If you haven't installed Git yet, you'll have to do it now.
-For Mac users, the easiest thing is to install git with Homebrew. Just type the following into Terminal:
+For Mac users, the easiest thing is to install git with Homebrew. To get Homebrew, just type the following into Terminal:
 
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+After this, you should be able to install git like this:
+
+	brew install git
 
 If you're using Windows, go to [this link](http://git-scm.com/download/win). If you're using Linux, simply follow these [instructions.](http://git-scm.com/download/linux.)
 
