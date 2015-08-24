@@ -47,5 +47,6 @@ Now its about time to style your page. The point with this exercise it not to ma
 
 ### Stretch goals
 
+* Finish up the [Javascript track at Codecademy](https://www.codecademy.com/en/tracks/javascript)
 * Create a new branch in your Git repo
 * Learn how to push to and pull from different branches, plus merging them together
