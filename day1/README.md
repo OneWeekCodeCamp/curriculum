@@ -4,7 +4,7 @@ You'll be working in pairs, creating a portfolio page from scratch. At the end o
 
 The site will be built through the tree exercises listed below. The Git exercise will be preceeded by a lecture on the subject.  
 
-## Terminal basics
+## Command line basics
 
 We'll start off the day by giving you a quick crash course in the command line interface, teaching you the commands you'll need to know to get through the day.	
 
@@ -49,4 +49,3 @@ Now its about time to style your page. The point with this exercise it not to ma
 
 * Create a new branch in your Git repo
 * Learn how to push to and pull from different branches, plus merging them together
-* 
