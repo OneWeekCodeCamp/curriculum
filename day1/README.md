@@ -21,7 +21,7 @@ After this, you should be able to install git like this:
 
 If you're using Windows, go to [this link](http://git-scm.com/download/win). If you're using Linux, simply follow these [instructions.](http://git-scm.com/download/linux.)
 
-* Create a new public repository on GitHub
+* Create a new public repository on GitHub (named *username*.github.io)
 * Clone the repo into your local machine
 * Create an file named *index.html* pasting in the code from the HTML file in this repo
 * Add and commit your changes
