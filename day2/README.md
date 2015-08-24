@@ -12,8 +12,8 @@ You'll do these exercises in repl.it. First, paste the array below into the edit
 * Loop through the modified array, and print the following to the console:  
 
 	*I like apples*  
-	*I like bananas* 
-	*I like lemons*
+	*I like bananas*  
+	*I like lemons*  
 	*etc etc...* 
 * Loop through the modified array, creating a new array which only contain the fruits which have below six letters in them.
 
