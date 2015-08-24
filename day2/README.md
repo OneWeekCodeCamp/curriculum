@@ -17,8 +17,8 @@ You'll do these exercises in repl.it.
 	I like orange  
 	I like pine apple  
 
-* Loop through the fruit array and create a new array which only contiains the fruits that have over four letters in them.
-* 
+
+
 
 
 
