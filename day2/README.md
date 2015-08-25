@@ -26,7 +26,7 @@ First, paste the array below into the editor.
 		url: 'www....',
 		width: '200px',
 		height: '200px',
-		people: ['john','nina','jack','liz']
+		people: ['john','nina','jack','liz'],
 		photographer: {
 			firstName: 'John',
 			lastName: 'Smith'
