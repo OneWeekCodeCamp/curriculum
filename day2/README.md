@@ -44,7 +44,7 @@ First, paste the array below into the editor.
 
 * Create a function named *add()*, which takes two variables and returns the product of the two
 * Create a function which [concatinates](http://www.w3schools.com/jsref/jsref_concat_array.asp) two arrays together
-* Create an array which takes one argument and returns true if it's a number and false if it's a string. (hint, check out [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof))
+* Create a function which takes one argument and returns true if it's a number and false if it's a string. (hint, check out [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof))
 * Create a function - myFunction - which loops through an array and prints out every item to the console
 * Modify myFunction so that it only prints the value if the item has got over 5 characters
 * Modify myFunction so that it **returns** a new array contrining only the items witch are more than 5 chararacters
