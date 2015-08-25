@@ -118,19 +118,19 @@ Here is an example object:
 		}
 	}
 
-*dot notation*	 
+**Dot notation**	 
 	
 	var h = image.height;
 	console.log(h);
 	// prints '200px' to the console
 	
-*bracket notation*  
+**Bracket notation**  
 	
 	var w = image["width"];
 	console.log(w);
 	// prints '300px' to the console
 
-*Fetching deep values*  
+**Fetching deep values**  
 	
 	var firstN = image.photographer.firstName;
 	console.log(firstN);
