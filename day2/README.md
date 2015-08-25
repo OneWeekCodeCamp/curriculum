@@ -103,6 +103,35 @@ First, paste the array below into the editor.
 	}
 
 
+### Objects
+
+Here is an example object: 
+
+	var image = {
+		url: 'www....',
+		width: '300px',
+		height: '200px',
+		people: ['john','nina','jack','liz']
+		photographer: {
+			firstName: 'John',
+			lastName: 'Smith'
+		}
+	}
+
+	*dot notation*	
+	var h = image.height;
+	console.log(h);
+	// prints '200px' to the console
 	
+	*bracket notation*
+	var w = image["width"];
+	console.log(w);
+	// prints '300px' to the console
 
+**Looping through objects**
 
+	for (var key in image) {
+		console.log(image[key]);
+	}
+
+	// prints out the values
