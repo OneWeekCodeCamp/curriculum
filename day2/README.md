@@ -18,7 +18,6 @@ You'll do these exercises in repl.it. First, paste the array below into the edit
 * Loop through the modified array, creating a new array which only contain the fruits which have below six letters in them.
 
 
-
 ## Exercise 2 - Objects:
 
 	var image = {
@@ -48,5 +47,58 @@ You'll do these exercises in repl.it. First, paste the array below into the edit
 * Modify myFunction so that it only prints the value if the item has got over 5 characters
 * Modify myFunction so that it **returns** a new array contrining only the items witch are more than 5 chararacters
 
+
+## Examples
+
+### Strings
+
+	var myString = "Hello";
+	var strLength = myString.length();
+	console.log(strLength);
+	// prints 5 to the console
+
+Concatentation 
+
+	var x = "1";
+	var y = "2";
+
+	var z = x + y;
+
+	console.log(z);
+
+	var x = 1;
+	var y = 2;
+
+	var z = x + y;
+
+	console.log(z);
+
+### Arrays
+
+	var fruits = ["apple","banana","kiwi", "pine apple"];
+	var foo = fruits[0];
+	// foo stores the value "apple";
+	var fruitLength = fruits.lengt()
+	// fruitLength stores the number 4
+
+	fruits.push("mango");
+
+
+### Looping 
+
+	for(var i = 0; i < fruitLength; i++){
+		console.log(fruits[i]);
+	}
+
+### if else 
+
+	for(var i = 0; i < fruitLength; i++){
+			if(fruits[i] === "mango"){
+			console.log("I found the" + fruits[i]);
+		}
+	}
+
+
+	
 
 
