@@ -55,9 +55,7 @@ You'll do these exercises in repl.it. First, paste the array below into the edit
 	var myString = "Hello";
 	var strLength = myString.length();
 	console.log(strLength);
-	// prints 5 to the console
-
-Concatentation 
+	// prints 5 to the console 
 
 	var x = "1";
 	var y = "2";
@@ -65,6 +63,8 @@ Concatentation
 	var z = x + y;
 
 	console.log(z);
+
+### Numbers
 
 	var x = 1;
 	var y = 2;
@@ -78,10 +78,12 @@ Concatentation
 	var fruits = ["apple","banana","kiwi", "pine apple"];
 	var foo = fruits[0];
 	// foo stores the value "apple";
+
 	var fruitLength = fruits.lengt()
 	// fruitLength stores the number 4
 
 	fruits.push("mango");
+	// adding the "mango" to the fruits array
 
 
 ### Looping 
