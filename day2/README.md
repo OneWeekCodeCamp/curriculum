@@ -128,6 +128,11 @@ Here is an example object:
 	console.log(w);
 	// prints '300px' to the console
 
+	*Fetching deep values*
+	var firstN = image.photographer.firstName;
+	console.log(firstN);
+	// prints John to the console
+
 **Looping through objects**
 
 	for (var key in image) {
@@ -135,3 +140,4 @@ Here is an example object:
 	}
 
 	// prints out the values
+
