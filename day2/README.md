@@ -42,9 +42,9 @@ First, paste the array below into the editor.
 
 ## Exercise 3 - Functions
 
-* Create a function named *add()*, which takes two variables and returns the sum of them
-* Create a function which concatinates two arrays together
-* Create an array which takes one argument and returns true if it's and even number and false if it's an odd number
+* Create a function named *add()*, which takes two variables and returns the product of the two
+* Create a function which [concatinates](http://www.w3schools.com/jsref/jsref_concat_array.asp) two arrays together
+* Create an array which takes one argument and returns true if it's a number and false if it's a string. (hint, check out [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof))
 * Create a function - myFunction - which loops through an array and prints out every item to the console
 * Modify myFunction so that it only prints the value if the item has got over 5 characters
 * Modify myFunction so that it **returns** a new array contrining only the items witch are more than 5 chararacters
@@ -151,4 +151,48 @@ Here is an example object:
 
 ### Functions
 
-A function is a block of code 
+A JavaScript function is a block of code designed to perform a particular task.
+
+**Creating a function**
+
+There are two ways of creating a function:
+
+	// Function expression
+	var foo = function(){
+		console.log('This is a function')
+	}
+	
+	// Function declaration
+	function foo(){
+		console.log('This is a function')
+	}
+
+	// You call a function by stating its name followed by parenthesis. Like this:
+
+	foo();
+	// prints out "This is a function" to the console.
+
+**Arguments**
+
+Within the functions parenthesis, you can add *arguments*. These are values which the function can access in the function body.
+	
+	var myFunc = function(a,b){
+		console.log('my first argument is ', a);
+		console.log('my secondd argument is ', b);
+	}
+
+	myFunc('hello', 123);
+
+Very often, you'll want your function to return a value, after its executed some code (e.g. calculations).
+
+	var add = function(a,b){
+		return a+b;
+	}
+
+	add(5,6);
+	//returns 11
+
+
+
+
+
