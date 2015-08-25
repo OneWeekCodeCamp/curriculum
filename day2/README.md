@@ -144,6 +144,10 @@ Here is an example object:
 
 	// prints out the values
 
+**Adding a property to an object**
+
+	image.cameraType = 'Canon 500D';
+	// now, the image object  has got a key cameraType which takes on the value 'Canon 500D'
 
 ### Functions
 
