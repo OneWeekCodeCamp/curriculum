@@ -81,7 +81,7 @@ First, paste the array below into the editor.
 	var foo = fruits[0];
 	// foo stores the value "apple";
 
-	var fruitLength = fruits.lengt()
+	var fruitLength = fruits.length;
 	// fruitLength stores the number 4
 
 	fruits.push("mango");
