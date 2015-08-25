@@ -1,8 +1,10 @@
 # Javascript
 
+You'll do these exercises in [repl.it](https://repl.it/), and online coding editor.
+
 ## Exercise 1 - Arrays:
 
-You'll do these exercises in repl.it. First, paste the array below into the editor.
+First, paste the array below into the editor.
 
 	var fruits = ["apple","banana","kiwi", "pine apple"];
 
