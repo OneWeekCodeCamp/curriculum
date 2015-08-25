@@ -111,7 +111,7 @@ Here is an example object:
 		url: 'www....',
 		width: '300px',
 		height: '200px',
-		people: ['john','nina','jack','liz']
+		people: ['john','nina','jack','liz'],
 		photographer: {
 			firstName: 'John',
 			lastName: 'Smith'
@@ -144,3 +144,7 @@ Here is an example object:
 
 	// prints out the values
 
+
+### Functions
+
+A function is a block of code 
