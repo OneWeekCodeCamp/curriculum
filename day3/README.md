@@ -73,8 +73,8 @@ This is how you create a for loop to loop through an array og objects, and fetch
 	// the array with all the data is called myResults
 	var trackNamesArray = []
 	for (var i = 0; i < myResults.length; i++){
-		var myTrack = myResults.trackName;
-		 trackNamesArray.push(myTrack);
+		var songTitle = myResults.trackName;
+		 trackNamesArray.push(songTitle);
 	}
 
 	// now, you've stored all the track names in an array called *trackNamesArray*. Hurray!
@@ -86,8 +86,8 @@ Instead of pushing the trackName data to a Javascript array, let's create a stri
 
 	var htmlList = ""
 	for (var i = 0; i < myResults.length; i++){
-		var myTrack = myResults.trackName;
-		htmlList += "<li>" + track + "</li>";
+		var songTitle = myResults.trackName;
+		htmlList += "<li>" + songTitle + "</li>";
 	}
 	$("#searchResults").append(resultsList);
 
