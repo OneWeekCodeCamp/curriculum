@@ -14,7 +14,7 @@ Remember to use the [jQuery docs](https://jquery.com/) if you're unsure of how t
 Here is the link to the iTunes URL: 'https://itunes.apple.com/search?term=jack+johnson'.
 
 * create an Ajax request to the variable named itunesURL and console.log() the results.
-* navigate through the JSON response object and push the songtitles into a new Array. Console.log the new Array.
+* navigate through the JSON response object and push the songtitles (called trackNames) into a new Array. Console.log the new Array.
 * [Append](http://api.jquery.com/append/) the trackNames to an unordered list in your HTML. 
 
 ##Third Exercise
