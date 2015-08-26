@@ -15,7 +15,7 @@ Here is the link to the iTunes URL: 'https://itunes.apple.com/search?term=jack+j
 
 * create an Ajax request to the variable named itunesURL and console.log() the results.
 * navigate through the JSON response object and push the songtitles into a new Array. Console.log the new Array.
-* Loop through the new Array and output the songtitles in an unordered list on your webpage.
+* [Append](http://api.jquery.com/append/) the trackNames to an unordered list in your HTML. 
 
 ##Third Exercise
 * modify the itunesURL so that it contains the string value of the searchQuery input field instead of Beyonce.
