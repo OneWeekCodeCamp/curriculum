@@ -70,7 +70,7 @@ You'll need to grab the *results* array in your success callback function:
 
 This is how you create a for loop to loop through an array og objects, and fetching the variable you want to grab. In our case, this variable is called *trackName*:
 
-	// the array is called myResults
+	// the array with all the data is called myResults
 	var trackNamesArray = []
 	for (var i = 0; i < myResults.length; i++){
 		var myTrack = myResults.trackName;
