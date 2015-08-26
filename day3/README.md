@@ -52,7 +52,16 @@ Place the jQuery file in the same folder as your *index.html* and link to it usi
 	$.ajax({
 		url: someRandomUrl,
 		dataType: 'jsonp',
-		success: function(data){
+		success: function(itunesData){
 			// do whatever you want with the data you get back from the API
 		} 
 	});
+
+### How to fetch the correct data
+
+You'll need to grab the *results* array in your success callback function:
+
+		success: function(itunesData){
+			// navigate through the iTunesData to the *results* array
+			var myResults = itunesData.results;
+		} 
