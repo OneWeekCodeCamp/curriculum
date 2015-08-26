@@ -37,3 +37,7 @@ Place the jQuery file in the same folder as your *index.html* and link to it usi
 	$("#searchButton").click(function(){
 		// code what you want to happen when the user clicks the button
 	});
+
+## How to fetch the value from an input text field
+
+	var value = $("#searchQuery").val():
