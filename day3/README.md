@@ -79,5 +79,20 @@ This is how you create a for loop to loop through an array og objects, and fetch
 
 	// now, you've stored all the track names in an array called *trackNamesArray*. Hurray!
 
+### Appending the data to the HTML
+
+Instead of pushing the trackName data to a Javascript array, let's create a string of HTML elements, which we can add to the HTML, so that we can display the results on the page. We'll create a variable called *htmlList*, which contains an empty string.
 
 
+	var htmlList = ""
+	for (var i = 0; i < myResults.length; i++){
+		var myTrack = myResults.trackName;
+		htmlList += "<li>" + track + "</li>";
+	}
+	$("#searchResults").append(resultsList);
+
+
+
+After the loop has populated the *htmlList* with the data we need, we simply append this *htmlList* string to an HTML element with the id of *searchResults*. Naturally, we'll have to create this first, which we do below the button:
+
+	<ul id="searchResults"></ul>
