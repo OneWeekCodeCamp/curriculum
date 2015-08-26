@@ -65,3 +65,19 @@ You'll need to grab the *results* array in your success callback function:
 			// navigate through the iTunesData to the *results* array
 			var myResults = itunesData.results;
 		} 
+
+### Looping through an array and fetch your variable of choice
+
+This is how you create a for loop to loop through an array og objects, and fetching the variable you want to grab. In our case, this variable is called *trackName*:
+
+	// the array is called myResults
+	var trackNamesArray = []
+	for (var i = 0; i < myResults.length; i++){
+		var myTrack = myResults.trackName;
+		 trackNamesArray.push(myTrack);
+	}
+
+	// now, you've stored all the track names in an array called *trackNamesArray*. Hurray!
+
+
+
