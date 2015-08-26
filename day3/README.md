@@ -40,7 +40,7 @@ Place the jQuery file in the same folder as your *index.html* and link to it usi
 
 ### How to fetch the value from an input text field
 
-	var value = $("#searchQuery").val():
+	var mySearchQuery = $("#searchQuery").val():
 
 ## Exercise 2 examples
 
