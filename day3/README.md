@@ -22,3 +22,12 @@ Remember to use the [jQuery docs](https://jquery.com/) if you're unsure of how t
 ##Stretch Goals
 
 * add a link to each of the results in the list
+
+
+## Examples
+
+### How to link to jQuery
+
+Place the jQuery file in the same folder as your *index.html* and link to it using the follownig script tag:
+
+	<script src="jquery-1.11.3.js" ></script>
