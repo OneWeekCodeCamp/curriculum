@@ -1,5 +1,9 @@
 # Jquery and Ajax
 
+Download jQuery by clicking at [this link.](http://code.jquery.com/jquery-1.11.3.js) Load the jQiery library into your HTML file using the script tag.  
+
+Remember to use the [jQuery docs](https://jquery.com/) if you're unsure of how to do stuff.
+
 ##First Exercise
 * add an input field with an id of *searchQuery* and a button with the id of *searchButton* to the html file.
 * add an event handler for button click which console.log's "clicks".
