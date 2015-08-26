@@ -10,6 +10,9 @@ Remember to use the [jQuery docs](https://jquery.com/) if you're unsure of how t
 * when the user clicks the button log the text from the input field to the console.
 
 ##Second Exercise
+
+Here is the link to the iTunes URL: 'https://itunes.apple.com/search?term=jack+johnson'.
+
 * create an Ajax request to the variable named itunesURL and console.log() the results.
 * navigate through the JSON response object and push the songtitles into a new Array. Console.log the new Array.
 * Loop through the new Array and output the songtitles in an unordered list on your webpage.
