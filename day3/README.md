@@ -24,7 +24,7 @@ Remember to use the [jQuery docs](https://jquery.com/) if you're unsure of how t
 * add a link to each of the results in the list
 
 
-## Examples
+## Exercise 1 examples
 
 ### How to link to jQuery
 
@@ -32,12 +32,24 @@ Place the jQuery file in the same folder as your *index.html* and link to it usi
 
 	<script src="jquery-1.11.3.js" ></script>
 
-## How to register a button click
+### How to register a button click
 
 	$("#searchButton").click(function(){
 		// code what you want to happen when the user clicks the button
 	});
 
-## How to fetch the value from an input text field
+### How to fetch the value from an input text field
 
 	var value = $("#searchQuery").val():
+
+## Exercise 2 examples
+
+### How to create an Ajax request
+
+	$.ajax({
+		url: someRandomUrl,
+		dataType: 'jsonp',
+		success: function(data){
+			// do whatever you want with the data you get back from the API
+		} 
+	});
