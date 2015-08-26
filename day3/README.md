@@ -1,6 +1,6 @@
 # Jquery and Ajax
 
-Download jQuery by clicking at [this link.](http://code.jquery.com/jquery-1.11.3.js) Load the jQiery library into your HTML file using the script tag.  
+Download [jQuery](http://code.jquery.com/jquery-1.11.3.js) (scroll down to the uncomressed development version 1.11.3, and click the link). Secondly you'll have to load the jQiery library into your HTML file using the script tag.  
 
 Remember to use the [jQuery docs](https://jquery.com/) if you're unsure of how to do stuff.
 
