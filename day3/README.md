@@ -31,3 +31,9 @@ Remember to use the [jQuery docs](https://jquery.com/) if you're unsure of how t
 Place the jQuery file in the same folder as your *index.html* and link to it using the follownig script tag:
 
 	<script src="jquery-1.11.3.js" ></script>
+
+## How to register a button click
+
+	$("#searchButton").click(function(){
+		// code what you want to happen when the user clicks the button
+	});
