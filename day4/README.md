@@ -50,8 +50,10 @@ The Ajax request will need a *data* key, which shall be populated with two key-v
 	$.ajax({
 	  url: flickrURL,
 	  dataType: "jsonp",
-	  data: {format : 'json',
-	  		 tags   : animal},
+	  data: {
+	  	format : 'json',
+	  	tags   : animal
+	  },
 	  success: function(data) {
 	  	// do watever you want with the data
 	  }
