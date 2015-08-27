@@ -36,7 +36,7 @@ Finally, loop through the dogNames array, and log the names to the console, usin
 * Create 3 buttons each with the name of an animal so when the user clicks the name of the animal will be logged in the console.
 
 ## Second exercise
-* Create an AJAX request to the flickr api to fetch the value of the button clicked. Console.log the data you get from Flickr. PS: find out how to console.log the urls to the images. (You'll need to navigate into *items* -> *media* -> *m*)
+* Create an AJAX request to the flickr api to fetch the value of the button clicked. Console.log the data you get from Flickr. PS: find out how to console.log the urls to the images. (You'll need to navigate into the objects in the *items* array and then head into *media* -> *m*)
 * Render the animal Images on the page.
 
 ### Hints:
