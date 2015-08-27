@@ -39,6 +39,24 @@ Finally, loop through the dogNames array, and log the names to the console, usin
 * Create an AJAX request to the flickr api to fetch the value of the button clicked.
 * Render the animal Images on the page.
 
+### Hints:
+
+The url you'll query is the following:
+
+	var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+
+The Ajax request will need a *data* key, which shall be populated with two key-value pairs. One containing the format and the other containing the animal you want to get images of.
+
+	$.ajax({
+	  url: flickrURL,
+	  dataType: "jsonp",
+	  data: {format : 'json',
+	  		 tags   : animal},
+	  success: function(data) {
+	  	// do watever you want with the data
+	  }
+	});
+
 ## Stretch Goals
 * Clear the content when a new button is clicked.
 * Allow the user to be able to choose between viewing 5, 10, 20 images on the page.
