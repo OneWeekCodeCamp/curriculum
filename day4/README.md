@@ -64,3 +64,4 @@ The Ajax request will need a *data* object, which shall be populated with two ke
 * Allow the user to be able to choose between viewing 5, 10, 20 images on the page.
 * Add a delete button to the image, in which the user can click to remove the image from the screen.
 * Style your application.
+* Allow the user to create custom buttons for other animals.
