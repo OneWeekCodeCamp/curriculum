@@ -62,4 +62,5 @@ The Ajax request will need a *data* object, which shall be populated with two ke
 ## Stretch Goals
 * Clear the content when a new button is clicked.
 * Allow the user to be able to choose between viewing 5, 10, 20 images on the page.
-* Styling your application.
+* Add a delete button to the image, in which the user can click to remove the image from the screen.
+* Style your application.
