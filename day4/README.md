@@ -36,7 +36,7 @@ Finally, loop through the dogNames array, and log the names to the console, usin
 * Create 3 buttons each with the name of an animal so when the user clicks the name of the animal will be logged in the console.
 
 ## Second exercise
-* Create an AJAX request to the flickr api to fetch the value of the button clicked. Console.log the data you get from Flickr.
+* Create an AJAX request to the flickr api to fetch the value of the button clicked. Console.log the data you get from Flickr. PS: find out how to console.log the urls to the images. (You'll need to navigate into *items* -> *media* -> *m*)
 * Render the animal Images on the page.
 
 ### Hints:
@@ -45,7 +45,7 @@ The url you'll query is the following:
 
 	var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
-The Ajax request will need a *data* key, which shall be populated with two key-value pairs. One containing the format and the other containing the animal you want to get images of. Notice the **data** object you'll have to send with the AJAX request; this is where you'll specify the animal you want picture of.
+The Ajax request will need a *data* object, which shall be populated with two key-value pairs. One containing the format and the other containing the animal you want to get images of. Notice the **data** object you'll have to send with the AJAX request; this is where you'll specify the animal you want picture of.
 
 	$.ajax({
 	  url: flickrURL,
