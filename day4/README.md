@@ -31,9 +31,11 @@ Finally, loop through the dogNames array, and log the names to the console, usin
 
 # JQUERY AND AJAX 2nd Day
 
-## First Exercise
+## First Exercise 
 * Create a html file link to the jquery library (local or cdn) and make sure jquery has loaded.
 * Create 3 buttons each with the name of an animal so when the user clicks the name of the animal will be logged in the console.
+
+## Second exercise
 * Create an AJAX request to the flickr api to fetch the value of the button clicked.
 * Render the animal Images on the page.
 
