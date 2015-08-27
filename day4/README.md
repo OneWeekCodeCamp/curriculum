@@ -45,7 +45,7 @@ The url you'll query is the following:
 
 	var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
-The Ajax request will need a *data* key, which shall be populated with two key-value pairs. One containing the format and the other containing the animal you want to get images of.
+The Ajax request will need a *data* key, which shall be populated with two key-value pairs. One containing the format and the other containing the animal you want to get images of. Notice the data object you'll have to send with the AJAX request; this is where you'll specify the animal you want picture of.
 
 	$.ajax({
 	  url: flickrURL,
