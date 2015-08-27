@@ -18,6 +18,15 @@ Finally, loop through the dogNames array, and log the names to the console, usin
 	}
 
 
+## Solution:
+
+	var dogsArray = results.dogs;
+	var dogNames = [];
+	for (var i=0;i<dogsArray.length; i++){
+	   dogNames.push(dogsArray[i].name)
+	}
+	console.log(dogNames);
+
 
 
 # JQUERY AND AJAX 2nd Day
