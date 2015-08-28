@@ -20,7 +20,15 @@
 				format: 'json'
 			},
 			success: function(flickData){
-				console.log(flickData);
+				var items = flickData.items;
+				console.log(items);
+				var HTML = "";
+				for(var i=0;i<items.length; i++){
+					var imageLink = items[i].media.m;
+					HTML += '<img src="' + imageLink + '"/><br>';
+				}
+				$("#animals").append(HTML);
+
 			}
 		});
 
@@ -37,5 +45,6 @@
 <button>Dog</button>
 <button>Cat</button>
 <button>Moose</button>  
+<ul id="animals"></ul>
 </body>
 </html>
