@@ -4,7 +4,7 @@ Today you'll continue with the app you built yesterday, adding at least one new 
 
 In addition to this, you're going to push the code up to a new repo on GitHub.
 
-At the end of the day, those who want are invited to present their app before the rest of the class.
+At the end of the day, those who want are invited to present their project before the rest of the class, to talk a about a piece of code their app. It's not a competition about making the best app; the point is to show how your feature is implemented in the code.
 
 ## Suggested goals
 
