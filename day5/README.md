@@ -4,6 +4,8 @@ Today you'll continue with the app you built yesterday, adding at least one new 
 
 In addition to this, you're going to push the code up to a new repo on GitHub.
 
+At the end of the day, those who want are invited to present their app before the rest of the class.
+
 ## Suggested goals
 
 * Create animations using Jquery to effect your pages content (e.g how the images are loaded on the page checkout JQuery's FadeIn and FadeOut methods). 
