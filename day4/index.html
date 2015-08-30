@@ -6,20 +6,30 @@
   <script type="text/javascript">
   $(document).ready(function(){
 
-	$('button').click(function(){
-		var animal = $(this).text();
-		console.log(animal);
+	$('#button').click(function(){
 
-		var flickrURL = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+	   
+	    var url = "http://query.yahooapis.com/v1/public/yql";
+	    
+	    var symbol = $("#stock").val();
 
-		$.ajax({
-			url: flickrURL,
+	    var data = encodeURIComponent("select * from yahoo.finance.quotes where symbol in ('" + symbol + "')");
+
+
+    	$.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=http://datatables.org/alltables.env")
+	        .done(function (data) {
+	        	console.log(data);
+        });
+
+/*		$.ajax({
+			url: yahoo,
 			dataType: 'jsonp',
 			data: {
 				tags: animal,
 				format: 'json'
 			},
 			success: function(flickData){
+				console.log(flickData);
 				var items = flickData.items;
 				console.log(items);
 				var HTML = "";
@@ -30,7 +40,7 @@
 				$("#animals").append(HTML);
 
 			}
-		});
+		});*/
 
 
 	});
@@ -42,9 +52,12 @@
   </script>	
 </head>
 <body>
-<button>Dog</button>
+	<input type="text"  id="stock"/>
+	<input type="submit" id="button" />
+
+<!-- <button>Dog</button>
 <button>Cat</button>
 <button>Moose</button>  
-<ul id="animals"></ul>
+<ul id="animals"></ul> -->
 </body>
 </html>
